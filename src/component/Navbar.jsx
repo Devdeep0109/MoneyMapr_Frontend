@@ -17,10 +17,10 @@ const Navbar = () => {
         {/* Navigation Buttons */}
         <div className="flex items-center gap-6">
           <button
-            onClick={() => navigate("/")}
-            className="text-gray-700 font-medium hover:text-blue-600 transition duration-200"
+            onClick={() => navigate("/newcar")}
+            className="bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg shadow hover:bg-blue-700 transition duration-200"
           >
-            Home
+            New car
           </button>
           <button
             onClick={() => navigate("/cicalculator")}
